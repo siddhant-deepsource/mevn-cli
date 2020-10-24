@@ -13,3 +13,9 @@ enabled = true
   ]
   plugins = ["vue"]
   module_system = "es-modules"
+  dependency_file_paths = [
+  "src/templates/starter-templates/Default/package.json",
+  "src/templates/starter-templates/GraphQL/package.json",
+  "src/templates/starter-templates/Nuxt.js/package.json",
+  "src/templates/starter-templates/pwa/package.json",
+  ]
